@@ -16,7 +16,7 @@ VERSION="1.0"
 ##    -t        Module type {core, custom, contrib (default)}
 
 # Default variables.
-SCRIPTS_DIR=".docksal/addons/drupal-check/scripts"
+SCRIPTS_DIR="/var/www/.docksal/addons/drupal-check/scripts"
 MODULE_TYPE="contrib"
 CHECK_OPTS=()
 
@@ -48,9 +48,9 @@ done
 
 # Generate the module path.
 if [[ "${MODULE_TYPE}" = "core" ]]; then
-    MODULE_PATH="${DOCROOT}/${MODULE_TYPE}/modules/${MODULE_NAME}"
+    MODULE_PATH="/var/www/${DOCROOT}/${MODULE_TYPE}/modules/${MODULE_NAME}"
 else
-    MODULE_PATH="${DOCROOT}/modules/${MODULE_TYPE}/${MODULE_NAME}"
+    MODULE_PATH="/var/www/${DOCROOT}/modules/${MODULE_TYPE}/${MODULE_NAME}"
 fi
 
 # Execute script.
