@@ -10,11 +10,13 @@ git clone https://github.com/cbarrettgenuine/drupal-check.git
 fin addon install drupal-check
 ```
 
+__Note: If you want this to remain part of your project's repo, delete the `.git` folder from within the `.docksal/addons/drupal-check` folder__
+
 ## Usage
 
 This tool works on all Drupal code.
 
-### 2. Run drupal-check
+### 1. Run drupal-check
 
 Usage:
 
@@ -38,23 +40,23 @@ Examples:
 * Check the address contrib module:
 
   ```shell
-  drupal-check address
+  fin drupal-check address
   ```
 
 * Check non-contrib module:
 
   ```shell
-  drupal-check custom_module -t custom
+  fin drupal-check custom_module -t custom
   ```
 
 * Check the address contrib module for deprecations:
 
   ```shell
-  drupal-check address -d
+  fin drupal-check address -d
   ```
 
 * Check the address contrib module for analysis:
 
   ```shell
-  drupal-check address -a
+  fin drupal-check address -a
   ```
