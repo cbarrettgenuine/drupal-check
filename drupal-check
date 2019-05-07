@@ -68,4 +68,4 @@ else
 fi
 
 # Execute script.
-#fin exec php ${SCRIPTS_DIR}/drupal-check ${CHECK_OPTS[@]} ${MODULE_PATH}
+fin exec php ${SCRIPTS_DIR}/drupal-check ${CHECK_OPTS[@]} ${MODULE_PATH}
