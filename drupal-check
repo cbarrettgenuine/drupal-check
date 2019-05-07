@@ -67,7 +67,5 @@ else
     MODULE_PATH="/var/www/${DOCROOT}/modules/${MODULE_TYPE}/${MODULE_NAME}"
 fi
 
-echo ${MODULE_PATH}
-echo ${CUSTOM}
 # Execute script.
 #fin exec php ${SCRIPTS_DIR}/drupal-check ${CHECK_OPTS[@]} ${MODULE_PATH}
