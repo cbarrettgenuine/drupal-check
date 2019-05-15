@@ -7,4 +7,16 @@
 ## MODULE_NAME - The name of the module to be evaluated.
 ## The custom path MUST match the format of your profile module path or you will get errors.
 
+## Any of the following can be changed and will overwrite the variables in
+## the main script.
+# ROOT_DIR="/var/www/"
+# SCRIPTS_DIR="${ROOT_DIR}.docksal/addons/drupal-check/scripts/drupal-check.phar"
+# COMPOSER_DIR="${PROJECT_ROOT}/vendor/bin/drupal-check"
+# MODULE_TYPE="contrib"
+# CHECK_OPTS=()
+# PROFILE_DIR=""
+# SCRIPT_ARG=""
+# COMPOSER="local"
+
+
 CUSTOM="/var/www/${DOCROOT}/profiles/custom/${PROFILE_DIR}/modules/${MODULE_NAME}"
