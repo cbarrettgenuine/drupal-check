@@ -4,6 +4,8 @@
 
 Download or clone the drupal-check addon and place it into your .docksal/addons directory.
 
+This will work regardless of whether your project uses the the Composer based `mglaman/drupal-check` or not.  If you are not using Composer, this addon will install the script from Github for you.
+
 ```shell
 cd .docksal/addons
 git clone https://github.com/cbarrettgenuine/drupal-check.git

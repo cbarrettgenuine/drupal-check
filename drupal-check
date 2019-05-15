@@ -32,9 +32,6 @@ if [[ ! -f "${COMPOSER_DIR}" ]]; then
   COMPOSER=false
 fi
 
-echo $COMPOSER_DIR
-echo $COMPOSER
-
 # Check if arguments are included.
 # Get the module name.
 if [[ -z "$1" ]]; then
