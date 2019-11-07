@@ -10,7 +10,6 @@
 ## Any of the following can be changed and will overwrite the variables in
 ## the main script.
 # ROOT_DIR="/var/www/"
-# SCRIPTS_DIR="${ROOT_DIR}.docksal/addons/drupal-check/scripts/drupal-check.phar"
 # COMPOSER_DIR="${PROJECT_ROOT}/vendor/bin/drupal-check"
 # MODULE_TYPE="contrib"
 # CHECK_OPTS=()
@@ -19,4 +18,4 @@
 # COMPOSER="local"
 
 
-CUSTOM="/var/www/${DOCROOT}/profiles/custom/${PROFILE_DIR}/modules/${MODULE_NAME}"
+DRUPAL_CHECK_MODULE_PATH="/var/www/${DOCROOT}/profiles/custom/${PROFILE_DIR}/modules/${MODULE_NAME}"
