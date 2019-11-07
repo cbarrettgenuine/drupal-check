@@ -58,6 +58,9 @@ while getopts 'adt:p:v' opt; do
         ;;
         v )
             CHECK_OPTS+=("-vvv")
+        ;;
+        * )
+            echo "Invalid argument."
     esac
 done
 
